@@ -1,7 +1,7 @@
 # TalentScout AI - Precision Hiring Platform
 
 TalentScout AI is a modern, AI-driven recruitment platform designed to eliminate guesswork in talent acquisition. By leveraging Google's Genkit and Gemini models, the platform provides semantic resume analysis, granular skill matching, and strategic candidate feedback.
-----
+
 
 ##  Features
 
