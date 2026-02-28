@@ -1,4 +1,3 @@
-
 "use client"
 
 import { useState } from "react"
@@ -38,13 +37,13 @@ export default function LoginPage() {
         </div>
 
         <Card className="border-none shadow-2xl bg-white overflow-hidden">
-          <Tabs defaultValue="login" className="w-full">
+          <Tabs defaultValue="signin" className="w-full">
             <TabsList className="grid w-full grid-cols-2 rounded-none h-14 bg-muted/50">
-              <TabsTrigger value="login" className="data-[state=active]:bg-white data-[state=active]:text-primary font-bold text-sm uppercase tracking-wider">Login</TabsTrigger>
+              <TabsTrigger value="signin" className="data-[state=active]:bg-white data-[state=active]:text-primary font-bold text-sm uppercase tracking-wider">Sign In</TabsTrigger>
               <TabsTrigger value="signup" className="data-[state=active]:bg-white data-[state=active]:text-primary font-bold text-sm uppercase tracking-wider">Sign Up</TabsTrigger>
             </TabsList>
             
-            <TabsContent value="login" className="p-8 pt-6">
+            <TabsContent value="signin" className="p-8 pt-6">
               <form onSubmit={handleAuth} className="space-y-4">
                 <div className="space-y-2">
                   <Label htmlFor="email">Work Email</Label>

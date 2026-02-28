@@ -37,7 +37,7 @@ export default function LandingPage() {
         </nav>
         <div className="flex items-center gap-4">
           <Button variant="ghost" asChild className="hidden sm:inline-flex font-bold">
-            <Link href="/login">Login</Link>
+            <Link href="/login">Sign In</Link>
           </Button>
           <Button asChild className="bg-black hover:bg-black/90 text-white rounded-full px-6 font-bold shadow-lg transition-transform hover:scale-105">
             <Link href="/login">Get Started Free</Link>
