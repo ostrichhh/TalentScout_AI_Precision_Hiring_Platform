@@ -5,8 +5,6 @@ import {
   LayoutDashboard,
   SearchCode,
   Users,
-  Settings,
-  FileText,
   BarChart3,
   LogOut,
   Zap
@@ -62,7 +60,7 @@ export function AppSidebar() {
       <SidebarHeader className="h-16 flex items-center px-6">
         <Link href="/" className="flex items-center gap-2 font-bold text-xl text-sidebar-primary">
           <Zap className="fill-current w-6 h-6" />
-          <span className="group-data-[collapsible=icon]:hidden">HireFlow AI</span>
+          <span className="group-data-[collapsible=icon]:hidden">TalentScout AI</span>
         </Link>
       </SidebarHeader>
       <SidebarContent>
@@ -78,7 +76,7 @@ export function AppSidebar() {
                     asChild
                     isActive={pathname === item.href}
                     tooltip={item.label}
-                    className="h-12 px-4 transition-colors hover:bg-sidebar-accent"
+                    className="h-12 px-4 transition-colors hover:bg-sidebar-accent hover:text-sidebar-accent-foreground data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground"
                   >
                     <Link href={item.href} className="flex items-center gap-3">
                       <item.icon className="w-5 h-5" />
@@ -94,7 +92,7 @@ export function AppSidebar() {
       <SidebarFooter className="p-4 border-t border-sidebar-border">
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton className="h-12 px-4 transition-colors hover:bg-sidebar-accent">
+            <SidebarMenuButton className="h-12 px-4 transition-colors hover:bg-sidebar-accent hover:text-sidebar-accent-foreground">
               <LogOut className="w-5 h-5" />
               <span className="font-medium">Sign Out</span>
             </SidebarMenuButton>

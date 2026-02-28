@@ -5,7 +5,7 @@ import { AppSidebar } from '@/components/app-sidebar';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'HireFlow AI - Next Gen Resume Analyzer',
+  title: 'TalentScout AI - Next Gen Resume Analyzer',
   description: 'AI-powered recruitment and resume analysis platform.',
 };
 
