@@ -1,3 +1,5 @@
+"use client"
+
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { 
   Users, 
@@ -13,7 +15,7 @@ import {
   ChartTooltip, 
   ChartTooltipContent 
 } from "@/components/ui/chart"
-import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis, CartesianGrid, Line, LineChart, Tooltip } from "recharts"
+import { Bar, BarChart, XAxis, YAxis, CartesianGrid } from "recharts"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
