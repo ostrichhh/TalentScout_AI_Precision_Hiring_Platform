@@ -1,8 +1,9 @@
 # TalentScout AI - Precision Hiring Platform
 
 TalentScout AI is a modern, AI-driven recruitment platform designed to eliminate guesswork in talent acquisition. By leveraging Google's Genkit and Gemini models, the platform provides semantic resume analysis, granular skill matching, and strategic candidate feedback.
+----
 
-## 🚀 Features
+##  Features
 
 - **Semantic Resume Analysis**: Deep understanding of career trajectories beyond simple keywords.
 - **Automated Data Extraction**: Instant extraction of contact info, skills, experience, and education from PDF/DOCX.
@@ -11,7 +12,7 @@ TalentScout AI is a modern, AI-driven recruitment platform designed to eliminate
 - **Talent Pool Management**: A centralized dashboard to track and rank candidates in your pipeline.
 - **Hiring Insights**: Visual analytics on quality of hire, time-to-hire, and source efficacy.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework**: [Next.js 15 (App Router)](https://nextjs.org/)
 - **AI Engine**: [Genkit](https://firebase.google.com/docs/genkit) with Gemini 2.5 Flash
@@ -20,7 +21,7 @@ TalentScout AI is a modern, AI-driven recruitment platform designed to eliminate
 - **Charts**: [Recharts](https://recharts.org/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 
-## 📦 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -52,7 +53,7 @@ TalentScout AI is a modern, AI-driven recruitment platform designed to eliminate
 
 Open [http://localhost:9002](http://localhost:9002) with your browser to see the result.
 
-## 📈 Architecture
+##  Architecture
 
 The application uses **Genkit Flows** as Server Actions to orchestrate multi-step AI processes:
 1. **Extraction**: Parses raw resume data into structured JSON.
@@ -62,3 +63,8 @@ The application uses **Genkit Flows** as Server Actions to orchestrate multi-ste
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+## Disclaimer
+This project is developed using Firebase Studio and related Firebase services as its primary backend platform for data management, authentication, and system operations. While the system may incorporate AI-assisted features to generate outputs, all results remain subject to human verification and review to ensure accuracy, validity, and responsible use.
+
+The AI-generated outputs are intended solely to support the AI to Vibing Seminar Workshop and are provided strictly for academic and educational purposes only. They should not be treated as official records, final decisions, or professional advice without proper human evaluation and confirmation.
