@@ -30,7 +30,7 @@ export default function LoginPage() {
         <div className="text-center space-y-4">
           <Link href="/" className="inline-flex items-center gap-2 font-black text-3xl">
             <Zap className="text-primary fill-primary w-10 h-10 drop-shadow-[0_0_8px_rgba(249,115,22,0.5)]" />
-            <span className="bg-gradient-to-r from-black to-primary bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-black to-primary bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(249,115,22,0.3)]">
               TalentScout AI
             </span>
           </Link>
@@ -61,7 +61,7 @@ export default function LoginPage() {
                   {isLoading ? (
                     <Loader2 className="mr-2 h-5 w-5 animate-spin" />
                   ) : (
-                    "Welcome Back"
+                    "Sign In"
                   )}
                 </Button>
               </form>
