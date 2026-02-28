@@ -1,3 +1,4 @@
+
 "use client"
 
 import * as React from "react"
@@ -30,7 +31,7 @@ const navigation = [
     title: "Overview",
     label: "Dashboard",
     icon: LayoutDashboard,
-    href: "/",
+    href: "/dashboard",
   },
   {
     title: "Analysis",
@@ -94,9 +95,11 @@ export function AppSidebar() {
       <SidebarFooter className="p-4 border-t border-sidebar-border">
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton className="h-12 px-4 transition-colors hover:bg-black hover:text-white">
-              <LogOut className="w-5 h-5" />
-              <span className="font-medium">Sign Out</span>
+            <SidebarMenuButton asChild className="h-12 px-4 transition-colors hover:bg-black hover:text-white">
+              <Link href="/">
+                <LogOut className="w-5 h-5" />
+                <span className="font-medium">Sign Out</span>
+              </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
