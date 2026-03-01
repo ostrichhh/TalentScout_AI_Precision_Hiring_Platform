@@ -1,4 +1,4 @@
-# **App Name**: HireFlow AI
+# **App Name**: TalentScout AI
 
 ## Core Features:
 
